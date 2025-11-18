@@ -1,0 +1,19 @@
+### Get all users
+GET http://localhost:8080/api/users
+
+### Add new user
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "email": "jiya@example.com",
+  "dob": "2006-11-07"
+}
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "email": "sonya@example.com",
+  "dob": "2006-11-06"
+}
